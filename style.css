@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    color: #eaeaea;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #00b7ff;
+    text-shadow: 0 0 10px #00b7ff;
+}
+
+h2 {
+    color: #00eaff;
+    border-left: 5px solid #00eaff;
+    padding-left: 10px;
+}
+
+.card {
+    background: #111;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 183, 255, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #00b7ff;
+    color: #000;
+}
+
+tr:hover {
+    background: rgba(0, 183, 255, 0.1);
+}
+
+.btn, .btn-back {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #00b7ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover, .btn-back:hover {
+    background: #00eaff;
+}
+
+.empty {
+    text-align: center;
+    color: #ccc;
+    padding: 20px;
+}
